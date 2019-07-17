@@ -18,6 +18,11 @@ nnoremap <ESC><ESC> :noh<CR>
 colorscheme molokai
 set t_Co=256
 
-"*** script::NerdTree
+"*** NerdTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 let NERDTreeShowHidden = 1
+
+"*** QuickRun
+nnoremap <F5>	:QuickRun<CR>
+inoremap <F5> <Esc>:QuickRun<CR><Insert>
+
