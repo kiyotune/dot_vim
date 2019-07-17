@@ -9,7 +9,8 @@ set backspace=indent,eol,start
 set clipboard=unnamed,autoselect
 
 "*** update plug-in
-"git submodule foreach git pull origin masterset hlsearch
+"git submodule foreach git pull origin master
+set hlsearch
 
 "*** key map
 nnoremap <ESC><ESC> :noh<CR>
