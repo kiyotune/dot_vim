@@ -18,6 +18,6 @@ nnoremap <ESC><ESC> :noh<CR>
 colorscheme molokai
 set t_Co=256
 
-"*** other resource files
-source _vimrc.nerdtree
-
+"*** script::NerdTree
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
+let NERDTreeShowHidden = 1
