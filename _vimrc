@@ -19,5 +19,5 @@ colorscheme molokai
 set t_Co=256
 
 "*** other resource files
-source ~/.vimrc.nerdtree
+source _vimrc.nerdtree
 
