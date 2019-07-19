@@ -26,4 +26,12 @@ let NERDTreeShowHidden = 1
 "*** QuickRun
 nnoremap <F5>	:QuickRun<CR>
 inoremap <F5> <Esc>:QuickRun<CR><Insert>
+nnoremap <F4> :<C-u>bw! \[quickrun\ output\]<CR>
+inoremap <F4> <Esc>:<C-u>bw! \[quickrun\ output\]<CR>
 
+let g:quickrun_config = {
+\   "_" : {
+\       "outputter/buffer/split" : ":botright",
+\       "outputter/buffer/close_on_empty" : 1
+\   },
+\}
