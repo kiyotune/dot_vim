@@ -10,3 +10,6 @@
 [submodule "pack/mypackage/start/vim-quickrun"]
 	path = pack/mypackage/start/vim-quickrun
 	url = https://github.com/thinca/vim-quickrun
+[submodule "pack/mypackage/start/jedi-vim"]
+	path = pack/mypackage/start/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim

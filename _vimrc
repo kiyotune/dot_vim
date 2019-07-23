@@ -24,10 +24,9 @@ nnoremap <silent><C-e> :NERDTreeToggle<CR>
 let NERDTreeShowHidden = 1
 
 "*** QuickRun
-nnoremap <F5>	:QuickRun<CR>
-inoremap <F5> <Esc>:QuickRun<CR><Insert>
-nnoremap <F4> :<C-u>bw! \[quickrun\ output\]<CR>
-inoremap <F4> <Esc>:<C-u>bw! \[quickrun\ output\]<CR>
+nnoremap <F6>	:w<CR>!./%<CR>
+nnoremap <F5>	:w<CR>QuickRun<CR>
+nnoremap <F4> :w<CR><C-u>bw! \[quickrun\ output\]<CR>
 
 let g:quickrun_config = {
 \   "_" : {
@@ -35,3 +34,8 @@ let g:quickrun_config = {
 \       "outputter/buffer/close_on_empty" : 1
 \   },
 \}
+
+let g:jedi#auto_initialization = 1
+let g:jedi#rename_command = "<leader>R"
+let g:jedi#popup_on_dot = 1
+autocmd FileType python let b:did_ftplugin = 1
