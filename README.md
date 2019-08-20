@@ -1,13 +1,13 @@
 # How to use
-> $ git clone https://github.com/kiyotune/dot_vim 
+ $ git clone https://github.com/kiyotune/dot_vim 
 
-> $ mv dot_vim ~/.vim
+ $ mv dot_vim ~/.vim
 
-> $ cd ~/.vim
+ $ cd ~/.vim
 
-> $ ln -s _vimrc ~/.vimrc
+ $ ln -s _vimrc ~/.vimrc
 
-> $ git submodule update -i
+ $ git submodule update -i
 
 
 # How to add plug-in
