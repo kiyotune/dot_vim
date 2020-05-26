@@ -8,6 +8,7 @@ set number
 set backspace=indent,eol,start
 set clipboard=unnamed,autoselect
 set hlsearch
+set paste
 
 "*** key map
 nnoremap <ESC><ESC> :noh<CR>
@@ -32,3 +33,12 @@ let g:quickrun_config = {
 \       "outputter/buffer/close_on_empty" : 1
 \   },
 \}
+
+"*** lightline.vim
+set laststatus=2
+set noshowmode
+let g:lightline = {
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ], [ 'readonly', 'absolutepath', 'modified' ] ],
+      \ }
+      \ }
