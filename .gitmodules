@@ -10,3 +10,6 @@
 [submodule "pack/mypackage/start/vim-quickrun"]
 	path = pack/mypackage/start/vim-quickrun
 	url = https://github.com/thinca/vim-quickrun
+[submodule "pack/mypackage/start/lightline.vim"]
+	path = pack/mypackage/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
