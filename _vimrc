@@ -10,7 +10,20 @@ set clipboard=unnamed,autoselect
 set hlsearch
 set paste
 
-"*** key map
+"*** open terminal right-side
+function! s:OpenTerminalRightside()
+	"virtical split
+	vs
+	"move rigt window (h:left, j:below, k:upper, l:right)
+	wincmd l
+	"activate current window as terminal
+	terminal ++curwin
+	"move left window
+	wincmd h
+endfunction
+command! Vterm call s:OpenTerminalRightside()
+
+"** key map
 nnoremap <ESC><ESC> :noh<CR>
 nnoremap / /\v
 
