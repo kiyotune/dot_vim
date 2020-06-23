@@ -26,5 +26,9 @@ vim上からgitを操作できるツール。特に利便性は感じてない�
  
 
 # How to update plug-in
- git submodule foreach git pull origin master 
+ $ git submodule foreach git pull origin master 
 
+# How to delete plug-in
+ $ git rm -f pack/mypackage/start/(name)
+ $ rm -rf pack/mypackage/start/(name)
+ $ git rm pack/mypackage/start/(name)
