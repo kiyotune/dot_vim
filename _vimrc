@@ -12,6 +12,7 @@ set paste
 
 "*** key map
 nnoremap <ESC><ESC> :noh<CR>
+nnoremap / /\v
 
 "*** color scheme
 colorscheme molokai
