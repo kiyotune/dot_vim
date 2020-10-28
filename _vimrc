@@ -9,6 +9,7 @@ set backspace=indent,eol,start
 set clipboard=unnamed,autoselect
 set hlsearch
 set paste
+set belloff=all
 
 "*** key map
 nnoremap <ESC><ESC> :noh<CR>
