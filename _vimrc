@@ -11,8 +11,36 @@ set hlsearch
 set paste
 set belloff=all
 
-"*** key map
+"*** open terminal commands
+function! s:OpenTerminalRightSide()
+	vsp
+	wincmd l
+	terminal ++curwin
+	wincmd h
+endfunction
+command! Vterm call s:OpenTerminalRightSide()
+
+function! s:OpenTerminalBottomSide()
+	sp
+	wincmd j
+	terminal ++curwin
+	wincmd k
+endfunction
+command! Bterm call s:OpenTerminalBottomSide()
+
+function! s:OpenTerminal3Col()
+	only
+	sp
+	vsp
+	wincmd j
+	terminal ++curwin
+	wincmd k
+endfunction
+command! Term3Col  call s:OpenTerminal3Col()
+
+"** key map
 nnoremap <ESC><ESC> :noh<CR>
+nnoremap / /\v
 
 "*** color scheme
 colorscheme molokai
