@@ -1,3 +1,6 @@
+"echo $VIMRUNTIME
+"/usr/local/share/vim/vim82
+
 "*** general
 set mouse=
 set tabstop=2
@@ -10,6 +13,8 @@ set clipboard=unnamed,autoselect
 set hlsearch
 set paste
 set belloff=all
+filetype plugin indent on
+set statusline=%F%m%r%h%w\ [F=%{&ff}]\ [T=%Y]\ [A=\%03.3b]\ [H=\%02.2B]\ [P=%04l,%04v][%p%%]\ [L=%L]
 
 "*** open terminal commands
 function! s:OpenTerminalRightSide()
