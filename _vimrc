@@ -15,6 +15,7 @@ set paste
 set belloff=all
 filetype plugin indent on
 set statusline=%F%m%r%h%w\ [F=%{&ff}]\ [T=%Y]\ [A=\%03.3b]\ [H=\%02.2B]\ [P=%04l,%04v][%p%%]\ [L=%L]
+set visualbell t_vb=
 
 "*** open terminal commands
 function! s:OpenTerminalRightSide()
@@ -48,7 +49,7 @@ nnoremap <ESC><ESC> :noh<CR>
 nnoremap / /\v
 
 "*** color scheme
-colorscheme molokai
+colorscheme morning
 set t_Co=256
 
 "*** NerdTree
