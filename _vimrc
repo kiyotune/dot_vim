@@ -49,8 +49,17 @@ nnoremap <ESC><ESC> :noh<CR>
 nnoremap / /\v
 
 "*** color scheme
-colorscheme morning
-set t_Co=256
+"colorscheme delek
+"colorscheme desert
+"colorscheme elflord
+"colorscheme koehler
+"colorscheme morning
+"colorscheme pablo
+colorscheme peachpuff
+"colorscheme ron
+"colorscheme slate
+"colorscheme zellner
+"set t_Co=256
 
 "*** NerdTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
