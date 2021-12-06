@@ -16,6 +16,7 @@ set belloff=all
 filetype plugin indent on
 set statusline=%F%m%r%h%w\ [F=%{&ff}]\ [T=%Y]\ [A=\%03.3b]\ [H=\%02.2B]\ [P=%04l,%04v][%p%%]\ [L=%L]
 set visualbell t_vb=
+set paste
 
 "*** open terminal commands
 function! s:OpenTerminalRightSide()
@@ -49,12 +50,24 @@ nnoremap <ESC><ESC> :noh<CR>
 nnoremap / /\v
 
 "*** color scheme
+"colorscheme delek
+"colorscheme desert
+"colorscheme elflord
+"colorscheme koehler
 colorscheme morning
+"colorscheme pablo
+"colorscheme peachpuff
+"colorscheme ron
+"colorscheme slate
+"colorscheme blue
+"colorscheme darkblue
+"colorscheme evening
+"colorscheme industry
+"colorscheme murphy
+"colorscheme shine
+"colorscheme torte
+"colorscheme zellner
 set t_Co=256
-
-"*** NerdTree
-nnoremap <silent><C-e> :NERDTreeToggle<CR>
-let NERDTreeShowHidden = 1
 
 "*** QuickRun
 nnoremap <F5>	:QuickRun<CR>
