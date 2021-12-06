@@ -7,3 +7,6 @@
 [submodule "pack/mypackage/start/lightline.vim"]
 	path = pack/mypackage/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
+[submodule "pack/mypackage/start/nerdtree.git"]
+	path = pack/mypackage/start/nerdtree.git
+	url = https://github.com/preservim/nerdtree
