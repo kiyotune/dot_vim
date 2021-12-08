@@ -10,3 +10,6 @@
 [submodule "pack/mypackage/start/nerdtree.git"]
 	path = pack/mypackage/start/nerdtree.git
 	url = https://github.com/preservim/nerdtree
+[submodule "pack/mypackage/start/winresizer"]
+	path = pack/mypackage/start/winresizer
+	url = https://github.com/simeji/winresizer
