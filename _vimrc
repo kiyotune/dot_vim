@@ -17,6 +17,7 @@ filetype plugin indent on
 set statusline=%F%m%r%h%w\ [F=%{&ff}]\ [T=%Y]\ [A=\%03.3b]\ [H=\%02.2B]\ [P=%04l,%04v][%p%%]\ [L=%L]
 set visualbell t_vb=
 set paste
+set foldmethod=manual
 
 "*** open terminal commands
 function! s:OpenTerminalRightSide()
@@ -95,5 +96,18 @@ let g:lightline = {
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
+"nnoremap <C-f> :NERDTreeFind<CR>
 
+"*** Buffer 
+set hidden
+nnoremap <silent>bp :bprevious<CR>
+nnoremap <silent>bn :bnext<CR>
+nnoremap <silent>bb :b#<CR>
+nnoremap <silent>bf :bf<CR>
+nnoremap <silent>bl :bl<CR>
+nnoremap <silent>bm :bm<CR>
+nnoremap <silent>bd :bdelete<CR>
+
+"*** Misc
+imap <silent> <C-D><C-D> <C-R>=strftime("%Y-%m-%d  ")
+nmap <silent> <C-D><C-D> <ESC>i<C-R>=strftime("%Y-%m-%d  ")<CR><ESC>
