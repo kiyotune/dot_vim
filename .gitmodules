@@ -1,15 +1,12 @@
-[submodule "pack/mypackage/start/unite.vim"]
-	path = pack/mypackage/start/unite.vim
-	url = https://github.com/Shougo/unite.vim
-[submodule "pack/mypackage/start/vim-quickrun"]
-	path = pack/mypackage/start/vim-quickrun
-	url = https://github.com/thinca/vim-quickrun
 [submodule "pack/mypackage/start/lightline.vim"]
 	path = pack/mypackage/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
-[submodule "pack/mypackage/start/nerdtree.git"]
-	path = pack/mypackage/start/nerdtree.git
-	url = https://github.com/preservim/nerdtree
 [submodule "pack/mypackage/start/winresizer"]
 	path = pack/mypackage/start/winresizer
 	url = https://github.com/simeji/winresizer
+[submodule "pack/mypackage/start/plantuml-syntax.git"]
+	path = pack/mypackage/start/plantuml-syntax.git
+	url = https://github.com/aklt/plantuml-syntax
+[submodule "pack/mypackage/start/nerdtree.git"]
+	path = pack/mypackage/start/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree.git
